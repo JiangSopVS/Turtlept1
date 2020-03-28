@@ -4,7 +4,7 @@ Attack, Defend, and Score
 
 ### BASE STATS
 
-Base Turtle: pt = 1, exp = 5, step = 50
+Base Turtle: pt = 10, exp = 5, step = 50
 
 Silver upgrade: when pt reaches 20, step = 40
 
@@ -39,6 +39,10 @@ Can only make 1 attack per turn, or another attack at expense of exp - 5
 Defend (for base): pt - 2, exp - 2
 
 Defend (against lower grade): pt - 1, exp -2
+
+### DEMISE (DEATH)
+
+When pt = 0 or exp = 0
 
 ### SCORE
 
