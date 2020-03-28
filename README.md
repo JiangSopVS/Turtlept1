@@ -4,10 +4,10 @@ Attack, Defend, and Score
 
 ### BASE STATS
 
-Base Turtle: pt = 1, exp = 5, step = 50
-Silver upgrade: when pt reaches 20, step = 40
-Gold Upgrade: when pt reaches 40, step = 30
-Platinum Upgrade: when pt reaches 60, step = 20
+Base Turtle: pt = 1, exp = 5, step = 50;
+Silver upgrade: when pt reaches 20, step = 40;
+Gold Upgrade: when pt reaches 40, step = 30;
+Platinum Upgrade: when pt reaches 60, step = 20;
 
 * When step = 0, for non-Platinum grades, can buy 10 steps for 5 pt
 
