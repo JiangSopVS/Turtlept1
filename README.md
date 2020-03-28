@@ -1,36 +1,44 @@
-## Welcome to GitHub Pages
+## Introduction to Turtle War
 
-You can use the [editor on GitHub](https://github.com/JiangSopVS/Turtlept1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Attack, Defend, and Score
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### BASE STATS
 
-### Markdown
+Base Turtle: pt = 1, exp = 5, step = 50
+Silver upgrade: when pt reaches 20, step = 40
+Gold Upgrade: when pt reaches 40, step = 30
+Platinum Upgrade: when pt reaches 60, step = 20
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* When step = 0, for non-Platinum grades, can buy 10 steps for 5 pt
 
-```markdown
-Syntax highlighted code block
+### ATTACK
+
+Attacking enemies (For base, silver, and gold): step - 2, pt + 4, exp + 5 
+Attacking enemies (For Platinum only, when step = 0): pt + 2, exp = 5
+
+Can only make 1 attack per turn, or another attack at expense of exp - 5
+
+```Marking
 
 # Turtle Part 1
-## War and Evasion
+## Cautions
 
-- Bulleted
-- List
+1. Observe battlefield
+2. Weigh win options
+3. Wait for opening
+4. Act with caution
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### DEFEND
 
-### Jekyll Themes
+Defend (for base): pt - 2, exp - 2
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JiangSopVS/Turtlept1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Defend (against lower grade): pt - 1, exp -2
 
-### Support or Contact
+### SCORE
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Win Condition
+
+WHEN ENEMIES ARE ALL DEFEATED
+TAKE OUT ALL OPPONENTS BEFORE DEMISE; ELSE RETURN AS BASE TURTLE
